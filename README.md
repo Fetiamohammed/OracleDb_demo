@@ -19,21 +19,49 @@ Den här projekt syftar att utforska Oracle Databases funktioner och prestandaop
 
 ## 2. Likheter och Skillnader mellan SQL-databaser och Oracle Database
 
-| Egenskap                  | SQL-databaser                          | Oracle Database                          |
-|---------------------------|----------------------------------------|------------------------------------------|
-| Typ                       | RDBMS                                  | RDBMS                                    |
-| SQL-användning            | Använder SQL                           | Använder SQL                             |
-| ACID-egenskaper           | Stödjer ACID                           | Stödjer ACID                             |
-| Indexering                | Olika typer av index                   | Olika typer av index                     |
-| Transaktionshantering     | Hanterar transaktioner                 | Hanterar transaktioner                   |
-| Backup och återställning  | Stöd för säkerhetskopiering och återställning | Stöd för säkerhetskopiering och återställning |
-| Säkerhetsfunktioner       | Autentisering, auktorisering, kryptering | Autentisering, auktorisering, kryptering |
-| Utvecklare                | Flera utvecklare (t.ex. MySQL, PostgreSQL) | Oracle Corporation                       |
-| Licensiering och Kostnad  | Open-source, vissa kommersiella versioner | Kommersiellt licensierat, ofta kostsamt  |
-| Funktioner och Verktyg    | Varierar beroende på specifik databas  | Omfattande funktioner (t.ex. RAC, Data Guard) |
-| Plattformsstöd            | Flera plattformar                      | Flera plattformar, optimerad för Oracle moln |
-| Utökningar och Tillägg    | Specifika utökningar (t.ex. PostGIS)   | Proprietära tillägg (t.ex. PL/SQL, Oracle APEX) |
-| Skalbarhet och Prestanda  | Varierar beroende på implementering    | Hög skalbarhet och prestanda|
+#### Likheter
+
+**Relationsdatabasmodell**: Både SQL-databaser (som MySQL, PostgreSQL, SQL Server) och Oracle Database använder en relationsdatabasmodell där data lagras i tabeller med rader och kolumner.
+
+**Användning av SQL**: Båda systemen använder Structured Query Language (SQL) som primärt språk för att skapa, läsa, uppdatera och radera data (CRUD-operationer).
+
+**Dataintegritet och ACID-egenskaper**: Båda stöder ACID-egenskaper (Atomicity, Consistency, Isolation, Durability) för att säkerställa att transaktioner är säkra och konsistenta.
+
+**Indexering**: Både SQL-databaser och Oracle Database erbjuder indexeringsfunktioner för att förbättra prestandan vid datahämtning.
+
+**Backup och Återställning**: De har mekanismer för att säkerhetskopiera data och återställa databaser vid fel.
+
+**Stöd för relationer mellan tabeller**: Båda systemen använder primärnycklar, främmande nycklar och relationer för att hantera kopplingar mellan tabeller.
+
+#### Skillnader
+
+**Tillverkare och Licensiering**:
+- SQL-databaser: Många SQL-baserade databaser är open source, som MySQL och PostgreSQL, medan andra, som Microsoft SQL Server, är kommersiella.
+- Oracle Database: Är kommersiellt och utvecklat av Oracle Corporation. Användning kräver licensavgifter.
+
+**Funktionalitet och Skalbarhet**:
+- SQL-databaser: Kan hantera små till medelstora applikationer effektivt. Begränsningar kan uppstå vid extremt stora datamängder eller komplexa operationer.
+- Oracle Database: Designad för stora företag och kan hantera massiva datamängder och hög transaktionsvolym. Den har avancerade funktioner för partitionering, replikering och hög tillgänglighet.
+
+**Avancerade Funktioner**:
+- SQL-databaser: Stödjer grundläggande funktioner som transaktioner, indexering och säkerhet.
+- Oracle Database: Har unika funktioner som Oracle Real Application Clusters (RAC), stöd för funktionsbaserade index, och inbyggt stöd för PL/SQL (Procedural SQL).
+
+**Plattformar och Miljöer**:
+- SQL-databaser: Kan köras på olika plattformar, och vissa (som MySQL) är särskilt lätta att sätta upp och använda för webbaserade applikationer.
+- Oracle Database: Är mer krävande och vanligtvis konfigurerat i komplexa företagsmiljöer med dedikerade servrar.
+
+**Säkerhet och Kontroll**:
+- SQL-databaser: Erbjuder grundläggande säkerhet som rollhantering och autentisering.
+- Oracle Database: Har robust säkerhet med funktioner som Virtual Private Database (VPD) och Transparent Data Encryption (TDE).
+
+**Prestandaoptimering**:
+- SQL-databaser: Har grundläggande verktyg för optimering som index och frågeanalys.
+- Oracle Database: Erbjuder avancerade optimeringsverktyg, inklusive automatisk frågeoptimering och möjligheten att lagra exekveringsplaner.
+
+**Pris**:
+- SQL-databaser: Open source-alternativ är ofta gratis, medan kommersiella alternativ som SQL Server har varierande pris.
+- Oracle Database: Har högre kostnad på grund av sina avancerade funktioner och företagsfokus.
 
 ## 3.Indexering i Oracle Database
 
@@ -105,6 +133,7 @@ Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-oper
 ## 9. Resultat och Framtid
 
 Projektet gav mig en stark grundläggande förståelse för Oracle Database och dess funktioner. Backenden är  nästan klart vid fullt fungerande databas och kan utökas med fler funktioner. Jag har lagt grunden för ett komplett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och  kommer skapas frontenden för bättre användarupplevelse.
+
 
 ## 10. Sammanfattning
 
