@@ -2,7 +2,7 @@
 
 ## 1. Introduktion
 
-Syfte: Utforska Oracle Databases funktioner och prestandaoptimering genom att skapa ett enkelt bibliotekssystem. Projektet syftar till att få en grundläggande förståelse för Oracle Database och dess kapacitet.
+Den här projekt syftar att utforska Oracle Databases funktioner och prestandaoptimering genom att skapa ett enkelt bibliotekssystem. Projekt målet är att få en förståelse för Oracle Database och dess kapacitet.
 
 ### Oracle Database:
 
@@ -37,8 +37,10 @@ Indexering förbättrar prestandan för frågeoperationer genom att minska mäng
 4. **Partitionerade Index**:
     - Optimerar prestanda för stora tabeller genom att dela upp data i partitioner.
 
-## 3. Installation av Oracle och SQL Developer
-
+## 3. Installation av Oracle och SQL Developer:
+    -  https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
+    -  https://www.oracle.com/database/sqldeveloper/technologies/download/
+        
 ![Installation av Oracle och SQL Developer](./img/installDB.png)
 
 ## 4. Skapandet av databastabeller
@@ -82,4 +84,8 @@ Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-oper
 
 ## 8. Resultat och Framtid
 
-Projektet gav en stark grundläggande förståelse för Oracle Database och dess funktioner. Backend och frontend är fullt fungerande och kan utökas med fler funktioner. Jag har lagt grunden för ett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och bättre användarupplevelse.
+Projektet gav mig en stark grundläggande förståelse för Oracle Database och dess funktioner. Backenden är  nästan klart vid fullt fungerande databas och kan utökas med fler funktioner. Jag har lagt grunden för ett komplett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och  kommer skapas frontenden för bättre användarupplevelse.
+
+## 9. Sammanfatning
+
+I detta projekt implementerades tekniker för datahantering och optimering i Oracle Database. Genom att skapa B-tree-index på boktitlar och medlemmarnas e-post förbättrades sökprestandan, samtidigt som index användes sparsamt för att undvika att påverka insättnings- och uppdateringsoperationer negativt. EXPLAIN PLAN användes för att analysera och optimera SQL-frågor, vilket resulterade i minskad resursanvändning och snabbare exekvering. Även om transaktionshantering inte implementerades fullt ut, planerades användning av ACID-egenskaper för att säkerställa dataintegritet och konsistens i framtida utveckling. Projektet lade en stabil grund för ett skalbart och effektivt bibliotekssystem.
