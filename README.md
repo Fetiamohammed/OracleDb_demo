@@ -82,4 +82,4 @@ Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-oper
 
 ## 8. Resultat och Framtid
 
-Projektet gav en stark grundläggande förståelse för Oracle Database och dess funktioner. Backend och frontend är fullt fungerande och kan utökas med fler funktioner. Vi har lagt grunden för ett komplett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och bättre användarupplevelse.
+Projektet gav en stark grundläggande förståelse för Oracle Database och dess funktioner. Backend och frontend är fullt fungerande och kan utökas med fler funktioner. Jag har lagt grunden för ett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och bättre användarupplevelse.
