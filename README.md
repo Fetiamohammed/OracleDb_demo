@@ -79,7 +79,7 @@ Vi använde EXPLAIN PLAN för att analysera och justera frågeoptimering.
 
 ## 7. Backend och Frontend Utveckling
 
-Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-operationer. Framtida förbättringar kan inkludera fler funktioner för medlemmar, förbättrad klient med React och rapporteringsverktyg för att analysera lånehistorik.
+Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-operationer. Framtida förbättringar kan inkludera fler funktioner för medlemmar, förbättrad klient sida med React och rapporteringsverktyg för att analysera lånehistorik.
 
 ![Skapandet av databastabeller](./img/GetAll-books.png)
 ![Skapandet av databastabeller](./img/getBookId.png)
@@ -88,6 +88,6 @@ Skapa en serverapplikation med Node.js och Express.js för att hantera CRUD-oper
 
 Projektet gav mig en stark grundläggande förståelse för Oracle Database och dess funktioner. Backenden är  nästan klart vid fullt fungerande databas och kan utökas med fler funktioner. Jag har lagt grunden för ett komplett bibliotekssystem som kan vidareutvecklas med rapportering, avancerad sökning och  kommer skapas frontenden för bättre användarupplevelse.
 
-## 9. Sammanfatning
+## 9. Sammanfattning
 
 I detta projekt implementerades tekniker för datahantering och optimering i Oracle Database. Genom att skapa B-tree-index på boktitlar och medlemmarnas e-post förbättrades sökprestandan, samtidigt som index användes sparsamt för att undvika att påverka insättnings- och uppdateringsoperationer negativt. EXPLAIN PLAN användes för att analysera och optimera SQL-frågor, vilket resulterade i minskad resursanvändning och snabbare exekvering. Även om transaktionshantering inte implementerades fullt ut, planerades användning av ACID-egenskaper för att säkerställa dataintegritet och konsistens i framtida utveckling. Projektet lade en stabil grund för ett skalbart och effektivt bibliotekssystem.
