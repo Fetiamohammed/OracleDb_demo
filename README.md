@@ -60,7 +60,6 @@ Båda systemen använder primärnycklar, främmande nycklar och relationer för 
 #### Pris
 - **SQL-databaser**: Open source-alternativ är ofta gratis, medan kommersiella alternativ som SQL Server har varierande pris.
 - **Oracle Database**: Har högre kostnad på grund av sina avancerade funktioner och företagsfokus.
-Båda använder SQL och stöder ACID-egenskaper samt indexering för prestanda. Men Oracle Database sticker ut med avancerade funktioner som funktionsbaserade index och verktyg för automatisk optimering. Dessutom är Oracle kommersiellt och licensbaserat, medan många SQL-databaser är open source.
 
 ## 3.Indexering i Oracle Database
 
