@@ -10,14 +10,7 @@ Den här projekt syftar att utforska Oracle Databases funktioner och prestandaop
 - Designat för att lagra, hantera och hämta data effektivt.
 - Vanligt använt i företag för att hantera stora datamängder och stödja olika applikationer.
 
-### Huvudfunktioner:
-
-- **SQL**: Använder Structured Query Language för datamanipulation och frågehantering.
-- **Transaktioner**: Säkerställer dataintegritet och konsistens.
-- **Hög Tillgänglighet**: Funktioner för säkerhetskopiering och återställning.
-- **Säkerhet**: Erbjuder robusta säkerhetsfunktioner.
-
-## 2. Likheter och Skillnader mellan SQL-databaser och Oracle Database
+## 2. Likheter och Skillnader mellan  Andra SQL-databaser och Oracle Database
 ### Likheter
 
 #### Relationsdatabasmodell
