@@ -38,8 +38,10 @@ Indexering förbättrar prestandan för frågeoperationer genom att minska mäng
     - Optimerar prestanda för stora tabeller genom att dela upp data i partitioner.
 
 ## 3. Installation av Oracle och SQL Developer:
-    -  https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
-    -  https://www.oracle.com/database/sqldeveloper/technologies/download/
+  För att installera Oracle Database och SQL Developer, följ dessa länkar:
+
+- [Ladda ner Oracle Database](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html)
+- [Ladda ner SQL Developer](https://www.oracle.com/database/sqldeveloper/technologies/download/)
         
 ![Installation av Oracle och SQL Developer](./img/installDB.png)
 
